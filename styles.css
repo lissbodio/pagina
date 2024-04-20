@@ -1,0 +1,276 @@
+/* Estilos para la página */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Estilos para los mensajes de éxito y error */
+
+.mensaje {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.mensaje.error {
+    background-color: #FFCDD2;
+    color: #D32F2F;
+}
+
+.mensaje.exito {
+    background-color: #C8E6C9;
+    color: #388E3C;
+}
+
+
+/* Estilos para el carrusel de productos */
+
+#carouselProductos {
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    max-height: 250px;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.carousel-caption p {
+    color: #fff;
+}
+
+
+/* Estilos para el carrusel de promociones */
+
+#carouselPromociones {
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* Sombra suave */
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Fondo semi-transparente */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+}
+
+.carousel-caption h5 {
+    color: #333;
+    /* Color de texto */
+    font-size: 24px;
+}
+
+.carousel-caption p {
+    color: #666;
+    /* Color de texto secundario */
+    font-size: 18px;
+}
+
+.carousel-caption a {
+    color: #fff;
+    /* Color de enlaces */
+    background-color: #ff5733;
+    /* Color de fondo llamativo */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    /* Transición suave */
+}
+
+.carousel-caption a:hover {
+    background-color: #ff814a;
+    /* Cambio de color al pasar el ratón */
+}
+
+
+/* Estilos para el título */
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+/* Estilos para el menú de navegación */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+nav ul li a:hover {
+    background-color: #ccc;
+}
+
+.carrito {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.metodo-pago {
+    margin-top: 20px;
+}
+
+.metodo {
+    margin-bottom: 10px;
+}
+
+
+/* Estilos para el botón "Procesar Pago" */
+
+#btn-procesar-pago {
+    background-color: #4CAF50;
+    /* Color de fondo */
+    border: none;
+    /* Sin borde */
+    color: white;
+    /* Color del texto */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    text-align: center;
+    /* Alineación del texto */
+    text-decoration: none;
+    /* Sin decoración de texto */
+    display: inline-block;
+    /* Mostrar como bloque en línea */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    margin: 10px 0;
+    /* Margen superior e inferior */
+    cursor: pointer;
+    /* Cursor al pasar sobre el botón */
+}
+
+
+/* Estilos para los demás botones */
+
+.btn {
+    background-color: #008CBA;
+    /* Color de fondo */
+    border: none;
+    /* Sin borde */
+    color: white;
+    /* Color del texto */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    text-align: center;
+    /* Alineación del texto */
+    text-decoration: none;
+    /* Sin decoración de texto */
+    display: inline-block;
+    /* Mostrar como bloque en línea */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    margin: 10px 0;
+    /* Margen superior e inferior */
+    cursor: pointer;
+    /* Cursor al pasar sobre el botón */
+}
+
+
+/* Estilos para cambiar el color al pasar el mouse sobre los botones */
+
+.btn:hover,
+#btn-procesar-pago:hover {
+    background-color: #005f6b;
+    /* Cambio de color al pasar el mouse */
+}
+
+#btn-vaciar-carrito {
+    background-color: #ff0000;
+    /* Color de fondo */
+    border: none;
+    /* Sin borde */
+    color: white;
+    /* Color del texto */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    text-align: center;
+    /* Alineación del texto */
+    text-decoration: none;
+    /* Sin decoración de texto */
+    display: inline-block;
+    /* Mostrar como bloque en línea */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    margin: 10px 0;
+    /* Margen superior e inferior */
+    cursor: pointer;
+    /* Cursor al pasar sobre el botón */
+}
+
+#btn-vaciar-carrito:hover {
+    background-color: #005f6b;
+    /* Cambio de color al pasar el mouse */
+}
